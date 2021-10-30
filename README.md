@@ -1,6 +1,5 @@
 # Neural-Style-Transfer
-Comparing perfomance of VGG16 against Alexnet in neural style transfer
-
+Comparing perfomance of VGG16 against Alexnet in Neural Style Transfer . To learn more about Neural Style Transfer with pytorch click ![here](https://pytorch.org/tutorials/advanced/neural_style_tutorial.html)
 
 
 ## AlexNet : 
@@ -13,7 +12,6 @@ Comparing perfomance of VGG16 against Alexnet in neural style transfer
 
 ## VGG16 :
 ![vgg](https://user-images.githubusercontent.com/57902078/139523822-25552986-6b8f-4447-9b97-70b7fabf252f.jpeg)
-
 
 - Visual Geometric Group or VGG is a CNN architecture that was introduced 2 years after AlexNet in 2014. The main reason for introducing this model was to see the effect of depth on accuracy while training models for image classification/recognition.
 - The VGG network introduced the concept of grouping multiple convolution layers with smaller kernel sizes instead of having one Conv layer with a large kernel size. This caused the number of features at the output to reduce and second was including 3 ReLu layers instead of one increasing learning instances. As can be seen from the image above we see the layered structure (grey boxes) followed by a pooling layer(red boxes).
